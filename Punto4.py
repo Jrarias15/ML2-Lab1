@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 from unsupervised_package.SVD import SVDApproximation
 
-ruta_rostro = "C:/Users/jei_s/OneDrive/Documents/Especializacion/ML2/fotos/jeison_arias.jpg"  # Cambia esta ruta a la ubicación de la imagen
+ruta_rostro = "C:/Users/jei_s/OneDrive/Documents/Especializacion/ML2/fotos/jeison_arias.jpg" 
 rostro = np.array(Image.open(ruta_rostro))
 imagen_rostro = Image.fromarray(rostro)
 

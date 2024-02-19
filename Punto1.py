@@ -17,9 +17,6 @@ traza_A = np.trace(A)
 print("\nRango de A:", rango_A)
 print("Traza de A:", traza_A)
 
-# Calcular el determinante de A
-detA = np.linalg.det(A)
-print("Determinante de A:", detA)
 
 # Calcular la transpuesta de A
 ATransp=A.transpose()
